@@ -1,0 +1,27 @@
+<section>
+    <div class="content-wrap">
+        <h2>what do i do?</h2>
+        <ul class="grid-container">
+            <div id="grid-spacer"></div>
+            <li class="card" *ngFor="let project of projects">
+                <div class="card-container">
+                    <img [src]="project.image" alt="Project Image" width="100%">
+                    <div class="text-overlay">
+                        <h4>{{project.title}}</h4>
+                        <ul class="tag-list">
+                            <li class="tag" *ngFor="let tag of project.tags">
+                                <p>{{tag.name}}</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <p id="more-projects">
+            Check out more of my work on 
+            <a href="https://github.com/jkvaternik">Github</a> and 
+            <a href="https://www.behance.net/jaimekvatea11c">Behance</a>.
+        </p> 
+    </div>
+</section>
+

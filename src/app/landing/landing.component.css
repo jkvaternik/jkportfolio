@@ -1,0 +1,18 @@
+h1 {
+    color: #525252;
+    font-family: 'Didot', serif;
+    font-size: 48px;
+    padding-top: 150px;
+    line-height: 46px;
+}
+
+p {
+    font-weight: 100;
+    font-size: 20px;
+    width: 409px;
+}
+
+
+#name {
+    color: #64A0AC;
+}
