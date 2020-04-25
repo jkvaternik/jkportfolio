@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:100,200,300,400,500,600,700,800&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #FFFBF4;
+    color: #525252;
+    font-family: 'Libre Franklin', 'Arial Narrow', Arial, sans-serif;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+section {
+    height: 85vh;
+}
+
+.content-wrap {
+    margin: 0 18vw;
+    padding: 40px 0;
+}
