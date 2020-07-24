@@ -1,5 +1,5 @@
 section {
-    height: 125vh;
+    height: 115vh;
 }
 
 li {
@@ -16,6 +16,11 @@ h4 {
     font-weight: 500;
     margin-top: 15px;
     margin-bottom: 0;
+
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 a {
@@ -24,10 +29,11 @@ a {
 }
 
 .grid-container {
+    padding-left: 255px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 32px 16px;
+    gap: 16px 16px;
 }
 
 .text-overlay {
@@ -49,18 +55,53 @@ a {
     border: 1.5px solid #FDFDFD;
     border-radius: 5px;
     padding: 7.5px 15px;
-    font-size: 13px;
+    font-size: 14px;
     margin-right: 10px;
-}
-
-#grid-spacer {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 3;
 }
 
 #more-projects {
     font-weight: 500;
     float: right;
+}
+
+@media screen and (min-width: 500px) and (max-width: 1280px) {
+    section {
+        height: 100%;
+        margin-bottom: 75px;
+    }
+
+    .grid-container {
+        padding-left: 0px;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: repeat(3, 1fr);
+        gap: 16px 16px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    section {
+        height: 100%;
+        margin-bottom: 50px
+    }
+
+    h4 {
+        font-weight: 500;
+        margin-top: 15px;
+        margin-bottom: 0;
+    
+        width: 300px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .grid-container {
+        padding-left: 0px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        gap: 16px 16px;
+    }
 }

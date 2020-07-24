@@ -36,3 +36,46 @@ a {
     text-align: center;
     margin-top: 40px;
 }
+
+@media screen and (min-width: 500px) and (max-width: 1024px) {    
+    a {
+        background-color: #64A0AC;
+        border-radius: 15px;
+        color: #FDFDFD;
+        font-weight: 500;
+        font-size: 16px;
+        padding: 20px 40px;
+        margin: 16px 8px;
+        text-align: center;
+        text-decoration: none;
+        width: 154px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .content-wrap {
+        max-width: 100%;
+    }
+
+    h2 {
+        margin: 0px 0px 25px 0px;
+        color: #FDFDFD;
+        text-align: center;
+    }
+
+    .links-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    a {
+        display: block;
+        font-weight: 500;
+        font-size: 14px;
+        padding: 20px 40px;
+        margin: 8px;
+        width: 250px;
+    }
+}

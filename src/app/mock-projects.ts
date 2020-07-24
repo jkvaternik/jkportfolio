@@ -4,7 +4,7 @@ const PROJECTS: Project[] = [
     { 
         id: 1, 
         image: 'https://cdn.lynda.com/course/612167/612167-637159308484102173-16x9.jpg',
-        title: 'Wasteland',
+        title: 'This, This and This',
         desc: 'This is my first project.',
         tags: [
             {

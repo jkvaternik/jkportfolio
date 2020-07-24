@@ -2,12 +2,13 @@
     <div class="content-wrap">
         <h2>what do i do?</h2>
         <ul class="grid-container">
-            <div id="grid-spacer"></div>
             <li class="card" *ngFor="let project of projects">
                 <div class="card-container">
                     <img [src]="project.image" alt="Project Image" width="100%">
                     <div class="text-overlay">
-                        <h4>{{project.title}}</h4>
+                        <div style="width: 100%; overflow: hidden;">
+                            <h4>{{project.title}}</h4>
+                        </div>
                         <ul class="tag-list">
                             <li class="tag" *ngFor="let tag of project.tags">
                                 <p>{{tag.name}}</p>
