@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="134.113" height="674.363" viewBox="0 0 134.113 674.363">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fcde9c;
+      }
+
+      .cls-2 {
+        fill: #64a0ac;
+      }
+
+      .cls-3 {
+        fill: #769184;
+      }
+    </style>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-119.952 -68.955)">
+    <path id="Path_54" data-name="Path 54" class="cls-1" d="M.007,17.979C-.626-4.958,43.586-.927,58.113,3.16s14.527,31.671,0,36.965S.639,40.915.007,17.979Z" transform="translate(254.065 256.447) rotate(90)"/>
+    <path id="Path_55" data-name="Path 55" class="cls-2" d="M.007,24.146c-.633,22.936,43.58,18.906,58.106,14.819S72.64,7.294,58.113,2,.639,1.21.007,24.146Z" transform="translate(181.024 164.447) rotate(90)"/>
+    <path id="Path_56" data-name="Path 56" class="cls-2" d="M.007,17.979C-.626-4.958,43.586-.927,58.113,3.16s14.527,31.671,0,36.965S.639,40.915.007,17.979Z" transform="translate(238.065 431.439) rotate(90)"/>
+    <path id="Path_57" data-name="Path 57" class="cls-3" d="M.007,24.146c-.633,22.936,43.58,18.906,58.106,14.819S72.64,7.294,58.113,2,.639,1.21.007,24.146Z" transform="translate(166.125 341.447) rotate(90)"/>
+    <path id="Path_58" data-name="Path 58" class="cls-1" d="M.007,17.979C-.626-4.958,43.586-.927,58.113,3.16s14.527,31.671,0,36.965S.639,40.915.007,17.979Z" transform="translate(181.19 505.439) rotate(90)"/>
+    <path id="Path_59" data-name="Path 59" class="cls-3" d="M.007,24.146c-.633,22.936,43.58,18.906,58.106,14.819S72.64,7.294,58.113,2,.639,1.21.007,24.146Z" transform="translate(235.099 68.955) rotate(88)"/>
+    <path id="Path_60" data-name="Path 60" class="cls-3" d="M.007,24.146c-.633,22.936,43.58,18.906,58.106,14.819S72.64,7.294,58.113,2,.639,1.21.007,24.146Z" transform="translate(235.125 617.992) rotate(90)"/>
+    <path id="Path_61" data-name="Path 61" class="cls-2" d="M.007,17.979C-.626-4.958,43.586-.927,58.113,3.16s14.527,31.671,0,36.965S.639,40.915.007,17.979Z" transform="translate(170.173 674.824) rotate(97)"/>
+  </g>
+</svg>

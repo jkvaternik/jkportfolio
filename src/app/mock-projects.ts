@@ -3,22 +3,7 @@ import { Project } from './project'
 const PROJECTS: Project[] = [
     { 
         id: 1, 
-        image: 'https://cdn.lynda.com/course/612167/612167-637159308484102173-16x9.jpg',
-        title: 'This, This and This',
-        desc: 'This is my first project.',
-        tags: [
-            {
-                name: "iOS"
-            },
-            {
-                name: "XD"
-            }
-        ],
-        link: 'https://github.com/'
-    },
-    { 
-        id: 2, 
-        image: 'https://cdn.lynda.com/course/612167/612167-637159308484102173-16x9.jpg',
+        image: 'https://s3-us-west-1.amazonaws.com/jaimekvaternik.com/assets/images/water-project.png',
         title: 'Water',
         desc: 'This is my second project.',
         tags: [
@@ -32,11 +17,11 @@ const PROJECTS: Project[] = [
                 name: "CSS"
             }
         ],
-        link: 'https://github.com/'
+        link: 'https://github.com/jkvaternik/water'
     },
     { 
-        id: 3, 
-        image: 'https://cdn.lynda.com/course/612167/612167-637159308484102173-16x9.jpg',
+        id: 2, 
+        image: 'https://s3-us-west-1.amazonaws.com/jaimekvaternik.com/assets/images/spreadsheets-ood.png',
         title: 'Spreadsheets.ood',
         desc: 'This is my second project.',
         tags: [
@@ -44,11 +29,11 @@ const PROJECTS: Project[] = [
                 name: "Java"
             }
         ],
-        link: 'https://github.com/'
+        link: 'https://github.com/jkvaternik/spreadsheetsOOD'
     },
     { 
-        id: 4, 
-        image: 'https://cdn.lynda.com/course/612167/612167-637159308484102173-16x9.jpg',
+        id: 3, 
+        image: 'https://s3-us-west-1.amazonaws.com/jaimekvaternik.com/assets/images/presentation+%E2%80%93+15.png',
         title: 'Explore',
         desc: 'This is my first project.',
         tags: [
@@ -56,11 +41,11 @@ const PROJECTS: Project[] = [
                 name: "XD"
             }
         ],
-        link: 'https://github.com/'
+        link: 'https://www.behance.net/gallery/105198521/explore?share=1'
     },
     { 
-        id: 5, 
-        image: 'https://cdn.lynda.com/course/612167/612167-637159308484102173-16x9.jpg',
+        id: 4, 
+        image: 'https://s3-us-west-1.amazonaws.com/jaimekvaternik.com/assets/images/Artboard+1%402x.png',
         title: 'Type & Systems',
         desc: 'This is my second project.',
         tags: [
@@ -68,11 +53,11 @@ const PROJECTS: Project[] = [
                 name: "inDesign"
             }
         ],
-        link: 'https://github.com/'
+        link: 'https://www.behance.net/gallery/105197727/CAMD-Brochure-Systems-Design?'
     },
     { 
-        id: 6, 
-        image: 'https://cdn.lynda.com/course/612167/612167-637159308484102173-16x9.jpg',
+        id: 5, 
+        image: 'https://s3-us-west-1.amazonaws.com/jaimekvaternik.com/assets/images/redesign%402x.png',
         title: 'NU CampusRec Redesign',
         desc: 'This is my second project.',
         tags: [
@@ -80,8 +65,20 @@ const PROJECTS: Project[] = [
                 name: "XD"
             }
         ],
-        link: 'https://github.com/'
-    }
+        link: 'https://www.behance.net/gallery/87370301/Northeastern-Campus-Rec-Redesign'
+    },
+    { 
+        id: 7, 
+        image: 'https://s3-us-west-1.amazonaws.com/jaimekvaternik.com/assets/images/Screen+Shot+2020-09-29+at+10.45.05+PM.png',
+        title: "Color Block Plug-in",
+        desc: 'This is my first project.',
+        tags: [
+            {
+                name: "JavaScript"
+            },
+        ],
+        link: 'https://github.com/jkvaternik/colorBlock'
+    },
 ]
 
 export { PROJECTS }

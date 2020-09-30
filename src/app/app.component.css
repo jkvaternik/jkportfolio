@@ -1,10 +1,19 @@
-/*
-
 .background {
     background-image: url(../assets/svg/steps.svg);
     background-repeat: no-repeat;
-    background-position: 12vw 80vh;
-    background-size: 80vw 2500px;
+    background-position: 0vw 80vh;
+    background-size: 100% 2000px;
 }
 
-*/
+@media screen and (min-width: 500px) and (max-width: px) {    
+    
+}
+
+@media screen and (max-width: 740px) {
+    .background {
+        background-image: url(../assets/svg/vertical-path.svg);
+        background-repeat: repeat-y;
+        background-position: 50vw 75vh;
+        background-size: 50%;
+    }
+}
