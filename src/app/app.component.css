@@ -1,5 +1,5 @@
 .background {
-    background-image: url(../assets/svg/steps.svg);
+    background-image: url(https://s3-us-west-1.amazonaws.com/jaimekvaternik.com/assets/svg/steps.svg);
     background-repeat: no-repeat;
     background-position: 0vw 80vh;
     background-size: 100% 2000px;
@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 740px) {
     .background {
-        background-image: url(../assets/svg/vertical-path.svg);
+        background-image: url(https://s3-us-west-1.amazonaws.com/jaimekvaternik.com/assets/svg/vertical-path.svg);
         background-repeat: repeat-y;
         background-position: 50vw 75vh;
         background-size: 50%;

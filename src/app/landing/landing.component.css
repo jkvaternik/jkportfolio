@@ -6,7 +6,7 @@ section {
 h1 {
     color: #525252;
     font-family: 'Didot', serif;
-    font-size: 48px;
+    font-size: 3rem;
     padding-top: 150px;
     line-height: 46px;
 }
@@ -25,5 +25,11 @@ p {
 @media screen and (max-width: 740px) {
     h1 {
         width: 375px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    h1 {
+        width: 300px;
     }
 }
